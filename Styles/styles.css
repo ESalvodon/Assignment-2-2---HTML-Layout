@@ -1,0 +1,134 @@
+.header {
+  width: 100%;
+  background: url(http://cdn.bigbangfish.com/city/523681-city-skyline-hd.jpg) repeat-x 0;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 100px;
+  width: 95px;
+  background: url(http://i415.photobucket.com/albums/pp234/sezitall/New%20York/ny_yankees_logo.jpg) repeat-x 0;
+  background-position: left top;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: blue;
+  height: 40px;
+  width: 9%;
+  float: left;
+  position: relative;
+}
+
+nav ul {
+  font-family: Sonoma, Arial;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  position: relative;
+  float: left;
+  clear: left;
+  left: 50%;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+  display: block;
+  right: 50%;
+}
+
+nav li ul {
+  display: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  background: #666666;
+  color: black;
+  padding: 5px 20px 3px 15px;
+  margin-left: 1px;
+  white-space: nowrap;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  border-top: 1px solid black;
+}
+
+nav ul li a:hover {
+  background: #999999;
+}
+
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height: 30px;
+}
+
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+nav li:hover a {
+  background: white;
+  height: 30px;
+}
+
+nav li:hover li a:hover {
+  background: gray;
+}
+
+nav ul li ul li a {
+  text-align: left;
+}
+
+.headline {
+  height: 1000px;
+
+
+  border: none;
+  position: inherit;
+  text-align: center;
+}
+
+.author {
+  font: italic 20px/10px Arial;
+  position: initial;
+  left: 50;
+  text-align: center;
+}
+
+.photo {
+  position: static;
+  background-image: url("http://www.rantsports.com/mlb/wp-content/slideshow/2013/04/five-players-on-the-new-york-yankees-who-are-off-to-a-good-start/medium/Top-Five-Yankees.jpg");
+  background-size:800px 600px;
+  background-position: right top;
+  height: 550px;
+  width:  775px;
+  margin: 0 auto;
+}
+
+#mlb {
+  url:("https://www.sportsinsights.com/wp-content/uploads/2014/01/mlb-logo-e1390939118272.jpg");
+  position:bottom;
+  display: inline-block;
+  width : 10px;
+  height:  10px;
+  padding: 1px 1px;
+  border: 5px solid red
+  margin: 10px 5px 15px 20px;
+
+
+
+}
